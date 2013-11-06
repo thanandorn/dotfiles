@@ -1,0 +1,11 @@
+#!/bin/bash
+
+if [[ "${1}" =~ ".csr" ]]; then
+  openssl req -noout -modulus -in ${1} | openssl md5
+elif [[ "${1}" =~ ".key" ]]; then
+  openssl rsa -noout -modulus -in ${1} | openssl md5
+elif [[ "${1}" =~ ".crt" ]]; then
+  openssl x509 -noout -modulus -in ${1} | openssl md5
+elif [ $# <> 1 ]; then
+  echo "$0 : Usage $0 <ssl.key|ssl.crt|ssl.csr>"
+fi

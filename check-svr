@@ -1,0 +1,3 @@
+#!/bin/bash
+
+curl https://raw.github.com/BashtonLtd/whatswrong/master/whatswrong | ssh ${1} bash

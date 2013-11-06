@@ -1,0 +1,7 @@
+#!/bin/bash
+
+# Generate the fake cert in the current dir. Press enter to answer all questions.
+openssl req -x509 -nodes -days 365 -newkey rsa:2048 -keyout mycert.pem -out mycert.pem
+
+# Start the server on port 4433 (default) using the cert we just made
+openssl s_server -cert mycert.pem -accept 4433 -WWW
