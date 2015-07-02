@@ -1,4 +1,4 @@
-misc
-====
+Dotfiles
+========
 
-Miscellenous
+Dotfiles
