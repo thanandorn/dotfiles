@@ -19,7 +19,7 @@ Plugin 'tpope/vim-fugitive'
 Plugin 'tpope/vim-surround'
 Plugin 'kien/ctrlp.vim'
 Plugin 'ntpeters/vim-better-whitespace'
-" Plugin 'bling/vim-airline'
+Plugin 'bling/vim-airline'
 
 " Syntax Highlighting
 Plugin 'nsf/gocode', {'rtp': 'vim/'}
@@ -36,3 +36,5 @@ Plugin 'tomasr/molokai'
 " All of your Plugins must be added before the following line
 call vundle#end()
 filetype plugin indent on
+let g:airline_powerline_fonts = 1
+let g:promptline_powerline_symbols = 1
