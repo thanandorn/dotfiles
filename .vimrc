@@ -21,6 +21,7 @@ Plugin 'tpope/vim-surround'
 Plugin 'kien/ctrlp.vim'
 Plugin 'ntpeters/vim-better-whitespace'
 Plugin 'bling/vim-airline'
+Plugin 'lervag/vimtex'
 
 " Syntax Highlighting
 Plugin 'nsf/gocode', {'rtp': 'vim/'}
@@ -33,9 +34,14 @@ Plugin 'git://github.com/ervandew/supertab.git'
 
 " Color schemes
 Plugin 'tomasr/molokai'
+Plugin 'flazz/vim-colorschemes'
 
 " All of your Plugins must be added before the following line
 call vundle#end()
 filetype plugin indent on
+
 let g:airline_powerline_fonts = 1
+let g:airline_theme='molokai'
 let g:promptline_powerline_symbols = 1
+let g:molokai_original = 1
+let g:rehash256 = 1
