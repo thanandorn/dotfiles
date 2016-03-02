@@ -22,11 +22,14 @@ Plugin 'kien/ctrlp.vim'
 Plugin 'ntpeters/vim-better-whitespace'
 Plugin 'bling/vim-airline'
 Plugin 'lervag/vimtex'
+Plugin 'git://github.com/shime/vim-livedown.git'
 
 " Syntax Highlighting
-Plugin 'nsf/gocode', {'rtp': 'vim/'}
+" Plugin 'nsf/gocode', {'rtp': 'vim/'}
+Plugin 'Valloric/YouCompleteMe'
 Plugin 'fatih/vim-go'
 Plugin 'git://github.com/markcornick/vim-vagrant.git'
+"Plugin 'git://github.com/rodjek/vim-puppet.git'
 Plugin 'git://github.com/puppetlabs/puppet-syntax-vim.git'
 
 " Supertab : awesome autocomplete
