@@ -1,3 +1,0 @@
-#!/bin/bash
-
-/usr/bin/vi +':w ++ff=unix' +':q' ${1}

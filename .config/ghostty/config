@@ -1,0 +1,9 @@
+# Cursor
+cursor-style = block
+cursor-style-blink = false
+shell-integration-features = no-cursor
+
+# Font
+font-family = CodeNewRoman Nerd Font Mono
+font-size = 19
+
